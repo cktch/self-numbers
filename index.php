@@ -1,16 +1,14 @@
 <?php
-
 // preparing the array variable for the numbers.
 $notSelfNumbers = array();
 $allNumbers = array();
 
-for($i=1; $i<=5000; $i++){ // let's loop the numbers between 1 to 5000
+// let's loop the numbers between 1 to 5000
+for($i=1; $i<=5000; $i++){
 	$b=$i;
 	$b= (string)$b ;
 	$allNumbers[] = $i;
-
 	$number = strlen($i); //  define the length of integer
-	
 	if ($number == 1){ // 1 number
 		$sumOfThisNumbers = $i+$b[0];
 		$notSelfNumbers[] = $sumOfThisNumbers; // sum of this 1 number
@@ -38,5 +36,4 @@ foreach($selfNumbers as $eachSelfNumber) {
 
 // here is the final result and enjoy my coffee again :)
 echo "<pre>Sum of all self-numbers from bigger than 1 and smaller than 5000 is: <strong>" . number_format($sumSelfNumbers)."</strong>";
- 
 ?>
