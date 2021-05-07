@@ -2,8 +2,6 @@
 
 #### More info about self-numbers is here: https://en.wikipedia.org/wiki/Self_number
 
-**Show and Sum of all self-numbers using php** by: **Raymond Ginting** - **raymond.ginting@gmail.com**
-
 #### Case:
 
 In 1949 the Indian mathematician D.R. Kaprekar discovered a class of numbers called self-numbers.
